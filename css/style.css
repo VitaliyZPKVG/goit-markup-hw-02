@@ -1,7 +1,9 @@
 .body {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .ul {
@@ -17,24 +19,25 @@
 }
 
 .header {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .header-logo {
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+
 }
 
-.header-logo .header-logo-span {
+.header-logo-span {
     color: #2e2f42;
 }
 
-.nav-item>.nav-link {
+.nav-item .nav-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
